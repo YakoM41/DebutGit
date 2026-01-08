@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Importance de l'Accessibilité Web | Writings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar container">
+    <div class="nav-inner">
+        <a href="index.html" class="back-link">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="19" y1="12" x2="5" y2="12"></line>
+                <polyline points="12 19 5 12 12 5"></polyline>
+            </svg>
+            Retour
+        </a>
+        <div class="logo">Article</div>
+    </div>
+</nav>
+
+<main class="container">
+
+    <header class="article-header">
+        <div class="article-meta">
+            <span class="date">17 Novembre 2025</span>
+            <span class="separator">•</span>
+            <span class="read-time">5 min de lecture</span>
+        </div>
+        <h1>Au-delà du code : Pourquoi l'accessibilité web est une fondation, pas une option.</h1>
+        <div class="tags">
+            <span>React</span>
+            <span>Performance</span>
+            <span>DX</span>
+        </div>
+    </header>
+
+    <article class="article-content">
+
+        <p class="lead">
+            Lorsque j'ai commencé mon apprentissage dans le développement web, je pensais naïvement que mon travail consistait à écrire du code propre et à m'assurer que le site s'affichait correctement sur mon écran. Je me trompais.
+
+            Au fil de mes recherches et de ma montée en compétences, j'ai réalisé que le web est un espace public qui doit être ouvert à tous. L'accessibilité numérique (a11y) n'est pas une "fonctionnalité bonus" à ajouter à la fin d'un sprint ; c'est le cœur même d'un développement robuste et éthique.
+        </p>
+
+        <h2>1. Une question de droits humains et de réalité statistique</h2>
+        <p>
+            L'accessibilité web consiste à s'assurer que les sites et applications sont utilisables par des personnes en situation de handicap (auditif, visuel, moteur ou cognitif).
+
+            On pense souvent que cela ne concerne qu'une infime minorité. Pourtant, selon l'Organisation Mondiale de la Santé (OMS), environ 16 % de la population mondiale (soit 1,3 milliard de personnes) vit avec un handicap important ¹. Ignorer l'accessibilité, c'est fermer la porte de son site à une personne sur six.
+
+            </p>
+            <p> De plus, nous profitons tous de l'accessibilité à un moment donné grâce à ce qu'on appelle l'effet "Curb Cut" (effet bateau-pavé). Une rampe pour fauteuil roulant aide aussi le parent avec une poussette ou le livreur avec un diable. Sur le web, c'est pareil :
+
+            Les sous-titres aident les malentendants, mais aussi ceux qui regardent une vidéo dans le métro sans écouteurs.
+
+            Un bon contraste aide les malvoyants, mais aussi l'utilisateur qui regarde son écran en plein soleil.
+
+            > Légende suggérée : Le spectre du design inclusif de Microsoft illustre comment une solution conçue pour un handicap permanent profite aussi aux situations temporaires et situationnelles. </p>
+
+        <h2>2. Le lien étroit entre Code Sémantique et SEO</h2>
+        <p>
+            En tant qu'apprenti développeur, j'ai vite compris que l'accessibilité et la qualité du code sont intimement liées. Le W3C (World Wide Web Consortium), l'organisme de normalisation du web, insiste sur l'importance du HTML sémantique ².
+
+            Utiliser les bonnes balises (nav, article, main, button au lieu d'une div cliquable) permet deux choses :
+        </p>
+        <ul>
+            <li>Pour les lecteurs d'écran : Les outils d'assistance peuvent naviguer logiquement dans la page.</li>
+            <li>Pour les robots d'indexation (SEO) : Google comprend mieux la structure de votre contenu.</li>
+        </ul>
+        <p>Selon MDN Web Docs, "l'accessibilité est souvent vue comme une discipline à part, mais elle recoupe en réalité de nombreuses autres bonnes pratiques du développement web, comme le design responsive, la performance et le SEO" ³. Un site accessible est, par définition, un site mieux codé.
+
+            > Légende suggérée : L'utilisation de balises sémantiques HTML5 structure le document pour les humains comme pour les machines.</p>
+
+        <h3>3. Cadre légal et responsabilité professionnelle</h3>
+        <p>En France, le RGAA (Référentiel Général d'Amélioration de l'Accessibilité) impose des normes strictes aux services publics et aux grandes entreprises. Mais au-delà de l'obligation légale, c'est notre responsabilité de développeur de ne pas créer de barrières numériques.
+
+            Comme le souligne l'initiative A11Y Project, "l'accessibilité est essentielle pour les développeurs, car nous sommes ceux qui construisons l'infrastructure du web" ⁴. Chaque fois que nous oublions un attribut alt sur une image ou que nous supprimons l'outline de focus en CSS (outline: none), nous excluons activement des utilisateurs.
+        </p>
+
+        <h3>Conclusion : Ma vision pour la suite</h3>
+        <p>
+            Intégrer l'accessibilité dans mon workflow n'est pas toujours facile : cela demande de la rigueur, des tests supplémentaires (navigation au clavier, vérification des contrastes) et une remise en question de certaines habitudes visuelles.
+
+            Cependant, pour la suite de mon parcours, je m'engage à considérer l'accessibilité comme une exigence de base ("Definition of Done"). Car un bon développeur ne code pas seulement pour les machines, mais pour tous les humains qui les utilisent.
+        </p>
+
+        <h3>Sources</h3>
+        <p>
+
+<!--        transformer les sources en lien-->
+
+            <ul>
+                <li>Organisation Mondiale de la Santé (OMS) - Rapport sur le handicap. </li>
+                <li>W3C Web Accessibility Initiative (WAI) - Introduction to Web Accessibility.</li>
+                <li>MDN Web Docs - Accessibilité.</li>
+                <li>The A11Y Project - Myths about web accessibility.</li>
+            </ul>
+        </p>
+
+    </article>
+
+    <div class="next-article-nav">
+        <p>À lire ensuite</p>
+        <a href="Article1.html">
+            <h3>Comprendre le "Closures" en JavaScript <span class="arrow">→</span></h3>
+        </a>
+    </div>
+
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-bottom" style="border:none; padding-top:0;">
+        <p>&copy; 2025 ZakhariM. Tous droits réservés.</p>
+    </div>
+</footer>
+
+<script src="dom.js"></script>
+</body>
+</html>

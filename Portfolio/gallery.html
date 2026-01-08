@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Projets | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar container">
+    <div class="nav-inner" style="justify-content: center; position: relative;">
+        <a href="index.html" class="back-link">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="19" y1="12" x2="5" y2="12"></line>
+                <polyline points="12 19 5 12 12 5"></polyline>
+            </svg>
+            Retour
+        </a>
+        <div class="logo">Work / Gallery</div>
+    </div>
+</nav>
+
+<div class="container hero">
+    <div class="hero-text" style="text-align: center;">
+        <h1>Tous mes <span class="highlight">Projets</span></h1>
+        <p style="color: var(--text-muted); max-width: 600px; margin: 10px auto;">
+            Une collection complète de mes développements web, designs d'interface et expérimentations.
+        </p>
+    </div>
+
+    <div class="filter-container reveal">
+        <button class="filter-btn active" data-filter="all">Tout</button>
+        <button class="filter-btn" data-filter="web">Développement</button>
+        <button class="filter-btn" data-filter="design">Design UI/UX</button>
+        <button class="filter-btn" data-filter="mobile">Mobile</button>
+    </div>
+
+    <div class="gallery-grid">
+
+        <div class="card project-card reveal" data-category="web">
+            <div class="project-img">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop" alt="Projet">
+            </div>
+            <div class="project-info">
+                <h3>E-Commerce Dashboard</h3>
+                <div class="tags"><span>React</span><span>Node.js</span></div>
+                <a href="#" class="btn-primary" style="margin-top: 15px; width: 100%; text-align: center;">Voir le projet</a>
+            </div>
+        </div>
+
+        <div class="card project-card reveal reveal-delay-1" data-category="design">
+            <div class="project-img">
+                <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1974&auto=format&fit=crop" alt="Projet">
+            </div>
+            <div class="project-info">
+                <h3>Finance App UI</h3>
+                <div class="tags"><span>Figma</span><span>Prototyping</span></div>
+                <a href="#" class="btn-primary" style="margin-top: 15px; width: 100%; text-align: center;">Voir le projet</a>
+            </div>
+        </div>
+
+        <div class="card project-card reveal reveal-delay-2" data-category="mobile">
+            <div class="project-img">
+                <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=2070&auto=format&fit=crop" alt="Projet">
+            </div>
+            <div class="project-info">
+                <h3>Fitness Tracker iOS</h3>
+                <div class="tags"><span>SwiftUI</span><span>HealthKit</span></div>
+                <a href="#" class="btn-primary" style="margin-top: 15px; width: 100%; text-align: center;">Voir le projet</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="dom.js"></script>
+
+</body>
+</html>

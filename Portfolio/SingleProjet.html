@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Start-Up Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar container">
+
+    <div class="nav-inner">
+
+        <div class="logo">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="4" y="4" width="32" height="32" rx="8" stroke="white" stroke-width="2" stroke-opacity="0.2"/>
+                <path d="M14 26L20 14L26 26" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="20" cy="22" r="3" fill="#00D99F"/>
+            </svg>
+        </div>
+        <a href="gallery.html" class="back-link">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="19" y1="12" x2="5" y2="12"></line>
+                <polyline points="12 19 5 12 12 5"></polyline>
+            </svg>
+            Retour à la galerie
+        </a>
+        <a href="#" class="btn-nav-contact" target="_blank">
+            Voir le site live
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+        </a>
+    </div>
+</nav>
+
+<main class="container hero">
+
+    <header class="project-header reveal">
+        <h1>Landing Page <span class="highlight">Maquette</span></h1>
+        <p class="project-subtitle">Une interface de gestion complète pour les vendeurs en ligne, axée sur la data-visualisation.</p>
+    </header>
+
+    <div class="project-meta-grid reveal reveal-delay-1">
+        <div class="meta-item">
+            <span class="meta-label">Rôle</span>
+            <span class="meta-value">Frontend Dev</span>
+        </div>
+        <div class="meta-item">
+            <span class="meta-label">Stack</span>
+            <span class="meta-value">Figma</span>
+        </div>
+        <div class="meta-item">
+            <span class="meta-label">Année</span>
+            <span class="meta-value">2025</span>
+        </div>
+        <div class="meta-item">
+            <span class="meta-label">Client</span>
+            <span class="meta-value">Maison René</span>
+        </div>
+    </div>
+
+    <div class="project-hero-image reveal reveal-delay-2">
+        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop" alt="Vue d'ensemble du projet">
+    </div>
+
+    <div class="project-content">
+
+        <div class="content-block reveal">
+            <h2>Le Challenge</h2>
+            <p>Le client avait besoin d'un tableau de bord capable de gérer des milliers de transactions en temps réel sans ralentissement. L'interface existante était confuse et les utilisateurs perdaient du temps à chercher les métriques clés.</p>
+        </div>
+
+        <div class="content-block reveal">
+            <h2>La Solution</h2>
+            <p>J'ai opté pour une architecture basée sur Next.js pour le rendu serveur et D3.js pour des graphiques performants. L'accent a été mis sur le "Dark Mode" natif pour réduire la fatigue visuelle des opérateurs travaillant de nuit.</p>
+
+            <ul class="feature-list">
+                <li>⚡ Chargement des données 3x plus rapide</li>
+                <li>🎨 Système de design cohérent et responsive</li>
+                <li>📊 Graphiques interactifs temps réel</li>
+            </ul>
+        </div>
+
+        <div class="project-gallery-grid reveal">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop" alt="Détail mobile">
+            <img src="https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=2070&auto=format&fit=crop" alt="Détail graphiques">
+        </div>
+
+    </div>
+
+    <div class="next-project reveal">
+        <p>Projet suivant</p>
+        <a href="project.html">
+            <h3>Finance App UI <span class="arrow">→</span></h3>
+        </a>
+    </div>
+
+</main>
+
+<script src="dom.js"></script>
+</body>
+</html>

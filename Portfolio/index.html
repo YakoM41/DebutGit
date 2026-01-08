@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio Bento</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="container">
+    <div class="navbar">
+        <div class="nav-inner">
+            <div class="logo">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="4" y="4" width="32" height="32" rx="8" stroke="white" stroke-width="2" stroke-opacity="0.2"/>
+                    <path d="M14 26L20 14L26 26" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="20" cy="22" r="3" fill="#CC6905"/> </svg>
+            </div>
+
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#work">Work</a>
+                <a href="#writing">Writing</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="nav-right">
+                <div class="location-time">
+                    <span class="status-dot1" style="width:6px; height:6px;"></span>
+                    <span id="time-display">00:00</span> Paris
+                </div>
+
+                <a href="mailto:zakhari.moussaoui@hotmail.fr" class="btn-nav-contact">Let's Talk
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="7" y1="17" x2="17" y2="7"></line>
+                        <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+
+    <section id="about" class="section hero">
+        <p class="greeting">Salut, je suis Zakhari 👋</p>
+        <h1 class="hero-text">Je conçois des expériences numériques où le <span class="highlight">Design</span> rencontre la <span class="highlight">Technique</span>.</h1>
+
+        <div class="status-alert">
+            <span class="status-dot1"></span>
+            <strong>Actuellement :</strong> À la recherche d'une alternance pour Avril 2026.
+        </div>
+
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    Bonjour ! Je suis Zakhari, un passionné du web qui a décidé de faire de sa curiosité son métier.
+                    Après un cursus en sociologie et anthropologie,
+                    j'ai plongé dans le code pour créer des choses concrètes.
+                </p>
+
+                <p>
+                    Aujourd'hui, je ne cherche pas juste un stage, mais une <strong>collaboration</strong>.
+                    J'apporte ma rigueur et ma soif d'apprendre, et je cherche une équipe prête à me faire grandir techniquement.
+                </p>
+
+                <div class="cv-container">
+                    <a href="./files/CV%20Zakhari%20M.pdf" target="_blank" class="btn btn-primary">
+                        📄 Télécharger mon CV
+                    </a>
+                </div>
+            </div>
+
+            <div class="profile-wrapper">
+                <img src="./img/Gemini_Generated_Image_5acy7t5acy7t5acy.png" alt="Portrait" class="profile-pic">
+            </div>
+        </div>
+    </section>
+
+    <section class="expertise-grid section-spacing">
+        <div class="card large-card">
+            <div class="card-content">
+                <h3>Architecture & Code</h3>
+                <p>Je développe des interfaces performantes, accessibles et maintenables (Clean Code). J'aime quand c'est pixel perfect.</p>
+            </div>
+            <div class="card-visual visual-blue"></div>
+        </div>
+
+        <div class="card large-card">
+            <div class="card-content">
+                <h3>UI & Sens du Détail</h3>
+                <p>Je comprends les enjeux du design. Je sais utiliser Figma et dialoguer efficacement avec les designers.</p>
+            </div>
+            <div class="card-visual visual-purple"></div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>MES ATOUTS</h2>
+        <p class="section-intro">Au-delà du code, c'est ma façon de travailler qui apporte de la valeur à une équipe.</p>
+
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">🤝</div>
+                <h4>Esprit d'équipe</h4>
+                <p>J'aime échanger et partager mes connaissances.</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🧩</div>
+                <h4>Résolution de problèmes</h4>
+                <p>Face à un bug, j'analyse, je décompose et je cherche la cause racine.</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">📢</div>
+                <h4>Communication</h4>
+                <p>Je sais vulgariser des concepts techniques pour les non-techs et documenter mon travail.</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🚀</div>
+                <h4>Curiosité & Veille</h4>
+                <p>Autodidacte passionné, je teste constamment de nouveaux outils pour rester à jour.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="tools-section section-spacing">
+        <h4 class="section-title">Outils</h4>
+        <ul class="tools-grid">
+            <li class="tool-item">React</li>
+            <li class="tool-item">NextJS</li>
+            <li class="tool-item">Figma</li>
+            <li class="tool-item">Node</li>
+            <li class="tool-item">Python</li>
+            <li class="tool-item">TS</li>
+            <li class="tool-item">Tailwind</li>
+            <li class="tool-item">Git</li>
+        </ul>
+    </section>
+
+    <section id="work" class="projects-section section-spacing">
+        <div class="section-header">
+            <h2>MES DERNIERS PROJETS</h2>
+            <a href="gallery.html" class="link-arrow">Voir tout le portfolio &rarr;</a>
+        </div>
+
+        <div class="work-layout">
+
+            <div class="project-image-container">
+                <div class="phone-mockup">
+                    <img src="https://picsum.photos/300/600" alt="App Screen" class="screen-content">
+                    <div class="reflection"></div>
+                </div>
+            </div>
+
+            <div class="projects-grid">
+                <div class="card project-card reveal">
+                    <div class="project-img"></div>
+                    <div class="project-info">
+                        <h3>A venir</h3>
+                        <p>...</p>
+                        <div class="tags"><span>HTML</span><span>Node</span></div>
+                    </div>
+                </div>
+
+                <div class="card project-card reveal reveal-delay-1">
+                    <div class="project-img"></div>
+                    <div class="project-info">
+                        <h3>A venir</h3>
+                        <p>...</p>
+                        <div class="tags"><span>Figma</span><span>Design System</span></div>
+                    </div>
+                </div>
+
+                <a href="https://oddconseildepart.zmoussaoui.dev-campus.fr/" target="_blank" class="card project-card clickable-card reveal reveal-delay-2">
+                    <div class="project-img">
+                        <img src="./img/screenshot.png" alt="Aperçu Landing page">
+                    </div>
+                    <div class="project-info">
+                        <div class="card-header-row">
+                            <h3>Agenda 2030 - CD 41</h3>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#888" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </div>
+                        <p>Site IntraNet pour sensibilisation à L'Agenda 2030.</p>
+                        <div class="tags"><span>Figma</span><span>WordPress</span></div>
+                    </div>
+                </a>
+
+                <a href="https://portfoliov1zakhari.zmoussaoui.dev-campus.fr/" target="_blank" class="card project-card clickable-card reveal reveal-delay-3">
+                    <div class="project-img">
+                        <img src="./img/583shots_so.png" alt="Aperçu Portfolio V1">
+                    </div>
+                    <div class="project-info">
+                        <div class="card-header-row">
+                            <h3>Mon Portfolio V1</h3>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#888" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </div>
+                        <p>Mon ancien site web.</p>
+                        <div class="tags"><span>HTML</span><span>CSS</span></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="writing" class="writing-section section-spacing">
+        <div class="section-header reveal">
+            <h2>Articles et Veille</h2>
+            <a href="#" class="link-arrow">Voir tout &rarr;</a>
+        </div>
+
+        <div class="articles-list">
+            <a href="Article1.html" class="article-item reveal reveal-delay-1">
+                <span class="article-date">Nov 17, 2025</span>
+                <span class="article-title">Avis sur méthode Agile.</span>
+            </a>
+            <a href="Article.html" class="article-item reveal reveal-delay-2">
+                <span class="article-date">Nov 27, 2025</span>
+                <span class="article-title">L'importance de l'accessibilité web</span>
+            </a>
+            <a href="#" class="article-item reveal reveal-delay-3">
+                <span class="article-date">À venir</span>
+                <span class="article-title">L'Utilisation de l'IA en Front-Web.</span>
+            </a>
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer" id="contact">
+    <div class="container footer-content">
+        <div class="footer-cta">
+            <h2>Construisons quelque chose <br><span class="highlight">d'unique.</span></h2>
+            <p>Toujours ouvert aux nouvelles opportunités et collaborations intéressantes.</p>
+            <a href="mailto:zakhari.moussaoui@hotmail.fr" class="email-link">
+                zakhari.moussaoui@hotmail.fr
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+            </a>
+        </div>
+
+        <div class="social-links">
+            <a href="https://github.com/ZakhariM" target="_blank" class="social-btn" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+            </a>
+            <a href="https://linkedin.com/in/zakhari-moussaoui" target="_blank" class="social-btn" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+            </a>
+        </div>
+    </div>
+
+    <div class="footer-bottom container">
+        <p>&copy; <span id="year">2025</span> ZakhariM. Tous droits réservés.</p>
+    </div>
+</footer>
+<script src="dom.js"></script>
+</body>
+</html>
